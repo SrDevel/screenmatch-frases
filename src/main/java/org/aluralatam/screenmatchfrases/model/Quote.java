@@ -10,7 +10,7 @@ import lombok.*;
 @Setter
 @ToString
 @Table(name = "quote")
-public class QuoteModel {
+public class Quote {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
